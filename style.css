@@ -1,0 +1,75 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0)),
+    url(./img/project\ img.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: screen;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header-div {
+  position: absolute;
+  top: 0%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  color: #fff;
+}
+
+.form-div {
+  width: 20vw;
+  height: 70vh;
+  background-color: #ff0000;
+  text-align: center;
+}
+input {
+  width: 15vw;
+  margin: 5px 0px;
+  padding: 8px;
+}
+textarea {
+  width: 15vw;
+  padding: 8px;
+  margin: 5px 0px;
+}
+button {
+  display: inline-block;
+  width: 16vw;
+  padding: 15px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+}
+footer {
+  height: 85vh;
+  width: screen;
+  background-color: #6b4307;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot {
+  position: absolute;
+  margin-top: 3px;
+  width: 70vw;
+  text-align: center;
+}
+.foot p {
+  font-size: 20px;
+  color: #fff;
+}
+.details {
+  width: 30vw;
+  color: #fff;
+  position: relative;
+  left: 20%;
+}
